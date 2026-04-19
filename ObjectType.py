@@ -1,0 +1,5 @@
+print(type(4+3))
+print(type(4+3.0))
+print(type('a'))
+print(type([1,2,7,8]))
+print(type({'a':1,'b':2}))
