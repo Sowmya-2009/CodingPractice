@@ -1,0 +1,5 @@
+L=eval(input("enter a list:"))
+m=min(L)
+index=L.index(m)
+print("minimum elment:",m)
+print("index:",index)
