@@ -1,0 +1,5 @@
+T = ((10, 20), (30, 40), (50, 60))
+print("Tuple =", T)
+print("First element of first tuple =", T[0][0])
+print("Second element of second tuple =", T[1][1])
+print("First element of third tuple =", T[2][0])
