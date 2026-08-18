@@ -1,0 +1,17 @@
+import pandas as pd 
+import numpy as np
+s=pd.Series(['jan','feb', 'np.NaN' ,'apr','may'], index=[31,28,31,30,31])
+print('values of series')
+print(s.values)
+print('index of series')
+print(s.index)
+print('checking whether the series is empty or not')
+print(s.empty)
+print('total no. of elements')
+print(s.size)
+print('first 2 row')
+print(s.head(2))
+print('last 3 rows')
+print(s.tail(3))
+print('no. of values in series')
+print(s.count())
