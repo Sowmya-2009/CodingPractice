@@ -1,0 +1,17 @@
+import pandas as pd
+import numpy as np
+s=pd.Series(np.arange(100,160,10), index=['a','b','c','d','e','f'])
+print('created series:')
+print(s)
+print('accesing single eleement using labelled index')
+print(s['d'])
+print('accessing multiple elements using positional index')
+print(s[[4,0]])
+print('slicing items using positional idex')
+print(s[1:5])
+print('slicing items using labelled index')
+print(s['d':'f'])
+print('slicing items between index along with step value')
+print(s[2:6:2])
+print("reversing the series")
+print(s[::-1])
